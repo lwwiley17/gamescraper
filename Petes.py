@@ -72,99 +72,103 @@ with open(f'{game}','r') as f:
         runningDIST = "-1"
         runningYDLN = "00"
         runningPLAYTYPE = "X"
+        
         for line in csv_reader:
+            
+            ### PLAY # ###
             playcount = playcount + 1
             playlist.get("PLAY #").append(playcount)
+            
             for cell in line:
                 
-                #if (column == 0):
-                    
                 ### PLAY # ###
                 # taken care of in the exterior loop
                 
-                ### ODK ###      
-                poss = re.findall(r".* at [0-9][0-9]:[0-9][0-9]", cell)
-                if("kick" in cell or "punt" in cell):
-                    runningODK = "K"
-                if(len(poss) > 0):
-                    check = re.findall(r"\(N\.Y\.\)", poss[0])
-                    if("(N.Y.)" in check):
-                        runningODK = "O"
+                if(column == 0):
+                    ### ODK ###      
+                    poss = re.findall(r".* at [0-9][0-9]:[0-9][0-9]", cell)
+                    if("kick" in cell or "punt" in cell):
+                        runningODK = "K"
+                    if(len(poss) > 0):
+                        check = re.findall(r"\(N\.Y\.\)", poss[0])
+                        if("(N.Y.)" in check):
+                            runningODK = "O"
+                        else:
+                            runningODK = "D"
+                    playlist.get("ODK").append(runningODK)
+                    
+                    ### DN # ###
+                    down = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+)+ at [A-z]*[0-9]+", cell)
+                    if(len(down) > 0 ):
+                        if('1st' in cell):
+                            runningDN = 1
+                        elif('2nd' in cell):
+                            runningDN = 2
+                        elif('3rd' in cell):
+                            runningDN = 3
+                        elif('4th' in cell):
+                            runningDN = 4
+                        else:
+                            runningDN = -22
+                            print(down)
                     else:
-                        runningODK = "D"
-                playlist.get("ODK").append(runningODK)
-                
-                ### DN # ###
-                down = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+)+ at [A-z]*[0-9]+", cell)
-                if(len(down) > 0 ):
-                    if('1st' in cell):
-                        runningDN = 1
-                    elif('2nd' in cell):
-                        runningDN = 2
-                    elif('3rd' in cell):
-                        runningDN = 3
-                    elif('4th' in cell):
-                        runningDN = 4
+                        runningDN = -11
+                    playlist.get("DN").append(runningDN)
+                    
+                    ### DIST # ###
+                    dist = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+) at [A-z]*([0-9]+)", cell)
+                    if(len(dist) > 0):
+                        if("GOAL" in dist[0]):
+                            runningDIST = dist[0][1]
+                        else:
+                            runningDIST = dist[0][0]
+                    playlist.get("DIST").append(runningDIST)
+                    
+                    ### YDLN # ###
+                    ydln = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+) at ([A-z]*)([0-9]+)", cell)
+                    if(len(ydln) > 0):
+                        if(runningODK == "O" and "MARITIME" in ydln[0][1]):
+                            runningYDLN = "-" + ydln[0][2]
+                        elif(runningODK == "O" and "MARITIME" not in ydln[0][1]):
+                            runningYDLN = ydln[0][2]
+                        elif(runningODK == "D" and "MARITIME" in ydln[0][1]):
+                            runningYDLN = ydln[0][2]
+                        elif(runningODK == "D" and "MARITIME" not in ydln[0][1]):
+                            runningYDLN = "-" + ydln[0][2]
+                        else:
+                            runningYDLN = "FUCK"
                     else:
-                        runningDN = -22
-                        print(down)
-                else:
-                    runningDN = -11
-                playlist.get("DN").append(runningDN)
+                        runningYDLN = "No info"
+                    
+                    playlist.get("YDLN").append(runningYDLN)
                 
-                ### DIST # ###
-                dist = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+) at [A-z]*([0-9]+)", cell)
-                if(len(dist) > 0):
-                    if("GOAL" in dist[0]):
-                        runningDIST = dist[0][1]
+                elif(column == 1):
+                    ### PLAYTYPE ###
+                    if("kickoff" in cell):
+                        runningPLAYTYPE = "KO"
+                    elif("punt" in cell):
+                        runningPLAYTYPE = "PUNT"
+                    elif("field goal" in cell):
+                        runningPLAYTYPE = "FG"
+                    elif("kick attempt" in cell):
+                        runningPLAYTYPE = "Extra Pt."
+                    elif("rush attempt" in cell or "pass attempt" in cell):
+                        runningPLAYTYPE = "2 Pt."
+                    elif("rush" in cell):
+                        runningPLAYTYPE = "Run"
+                    elif("pass" in cell):
+                        runningPLAYTYPE = "Pass"
                     else:
-                        runningDIST = dist[0][0]
-                playlist.get("DIST").append(runningDIST)
-                
-                ### YDLN # ###
-                ydln = re.findall(r"[0-9][a-z]+ and ([0-9]+|[GOAL]+) at ([A-z]*)([0-9]+)", cell)
-                if(len(ydln) > 0):
-                    if(runningODK == "O" and "MARITIME" in ydln[0][1]):
-                        runningYDLN = "-" + ydln[0][2]
-                    elif(runningODK == "O" and "MARITIME" not in ydln[0][1]):
-                        runningYDLN = ydln[0][2]
-                    elif(runningODK == "D" and "MARITIME" in ydln[0][1]):
-                        runningYDLN = ydln[0][2]
-                    elif(runningODK == "D" and "MARITIME" not in ydln[0][1]):
-                        runningYDLN = "-" + ydln[0][2]
-                    else:
-                        runningYDLN = "FUCK"
-                else:
-                    runningYDLN = "No info"
-                
-                playlist.get("YDLN").append(runningYDLN)
-                
-                ### PLAYTYPE ###
-                if("kickoff" in cell):
-                    runningPLAYTYPE = "KO"
-                elif("punt" in cell):
-                    runningPLAYTYPE = "PUNT"
-                elif("field goal" in cell):
-                    runningPLAYTYPE = "FG"
-                elif("kick attempt" in cell):
-                    runningPLAYTYPE = "Extra Pt."
-                elif("rush attempt" in cell or "pass attempt" in cell):
-                    runningPLAYTYPE = "2 Pt."
-                elif("rush" in cell):
-                    runningPLAYTYPE = "Run"
-                elif("pass" in cell):
-                    runningPLAYTYPE = "Pass"
-                else:
-                    runningPLAYTYPE = "No Info"
-                playlist.get("PLAYTYPE").append(runningPLAYTYPE)
-                
-                ### GNLS # ###
-                
-                playlist.get("GNLS").append("100")
-                
-                
-                ### RESULT ###
-                playlist.get("RESULT").append("BAD")
+                        runningPLAYTYPE = "No Info"
+                    playlist.get("PLAYTYPE").append(runningPLAYTYPE)
+                    
+                    ### GNLS # ###
+                    
+                    playlist.get("GNLS").append("100")
+                    
+                    
+                    ### RESULT ###
+                    playlist.get("RESULT").append("BAD")
                 
                 column = column + 1 
             column = 0
