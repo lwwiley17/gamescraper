@@ -3,7 +3,8 @@ import requests
 import csv
 
 #Use this line for individual games
-source = requests.get("https://maritimeathletics.com/sports/football/stats/2019/salisbury-university/boxscore/7035").text
+link = input("Provide a link to the game you want to break down: ")
+source = requests.get(link).text
 
 #Use this line for entire seasons
 #TO BE COMPLETED
