@@ -1,0 +1,182 @@
+1,ODK,DN,DIST,YARD LN,PLAY TYPE,GN/LS,RESULT
+2,K,,,-35,KO,,
+3,D,1,10,-25,Run,3,Rush
+4,D,2,7,-28,Run,2,Rush
+5,D,3,5,-30,Pass,4,Complete
+6,K,4,1,-34,PUNT,,Fair Catch
+7,O,1,10,-17,Run,12,Rush
+8,O,1,10,-29,,-7,Sack
+9,O,2,17,-22,Pass,3,Complete
+10,O,3,14,-25,Pass,7,Complete
+11,K,4,7,-32,PUNT,,Return
+12,D,1,10,-22,Pass,71,Complete
+13,D,1,07,07,Run,1,Rush
+14,D,2,06,06,Run,6,"Rush, TD"
+15,K,1,03,03,Extra Pt.,,Good
+16,K,1,35,-35,KO,,Touchback
+17,O,1,10,-25,,,Penalty
+18,O,1,15,-20,Run,-1,Rush
+19,O,2,16,-19,Run,2,Rush
+20,O,3,14,-21,Pass,0,Incomplete
+21,K,4,14,-21,PUNT,,Fumble
+22,D,1,10,-39,Run,3,Rush
+23,D,2,7,-42,Run,13,Rush
+24,D,1,10,45,Pass,26,Complete
+25,D,1,10,19,Run,0,Rush
+26,D,2,10,19,Pass,0,Incomplete
+27,D,3,10,19,,-8,Sack
+28,K,4,18,27,FG,,Good
+29,K,1,35,-35,,,Penalty
+30,K,1,20,-35,KO,,Return
+31,O,1,10,-47,Run,2,Rush
+32,O,2,8,-49,Run,-2,Rush
+33,O,3,10,-47,Pass,0,Incomplete
+34,K,4,10,-47,PUNT,,Fair Catch
+35,D,1,10,-16,Pass,2,Complete
+36,D,2,8,-18,Pass,17,Complete
+37,D,1,10,-35,Run,0,Rush
+38,D,2,10,-35,Run,2,Rush
+39,D,3,8,-37,Run,11,Rush
+40,D,3,18,-27,,,Penalty
+41,D,3,23,-22,Run,4,Rush
+42,K,4,19,-26,PUNT,,Downed
+43,O,1,10,-32,Run,7,Rush
+44,O,2,3,-39,Run,0,Rush
+45,O,3,3,-39,,-7,Sack
+46,K,4,10,-32,PUNT,,Fair Catch
+47,D,1,10,-29,Pass,0,Incomplete
+48,D,2,10,-29,Run,11,Rush
+49,D,1,10,-40,,-9,"Sack, Fumble"
+50,O,1,10,29,Run,-2,Rush
+51,O,2,12,31,Pass,5,Complete
+52,O,3,7,26,Pass,0,Incomplete
+53,K,4,7,26,FG,,Good
+54,K,1,35,-35,KO,,Return
+55,D,1,10,-19,Run,6,Rush
+56,D,2,4,-25,Run,-3,Rush
+57,D,3,7,-22,Run,7,Rush
+58,D,1,10,-29,Pass,7,Complete
+59,D,2,3,-36,Run,6,Rush
+60,D,1,10,-42,Run,5,Rush
+61,D,2,5,-47,,,Penalty
+62,D,2,10,-42,Run,-3,Rush
+63,D,3,13,-39,Pass,0,Incomplete
+64,D,4,13,-39,,,Penalty
+65,K,4,18,-34,PUNT,,Fumble
+66,O,1,10,-41,Pass,0,Incomplete
+67,O,2,10,-41,Run,9,Rush
+68,O,3,1,50,Run,9,Rush
+69,O,1,10,41,Pass,-4,Complete
+70,O,2,14,45,Pass,0,Incomplete
+71,O,3,14,45,Pass,0,Incomplete
+72,K,4,14,45,PUNT,,Fair Catch
+73,D,1,10,-12,Pass,,Return
+74,O,1,10,23,,,Sack
+75,O,2,20,33,Pass,0,Incomplete
+76,O,3,20,33,Pass,33,"Complete, TD"
+77,K,1,03,03,Extra Pt.,,Good
+78,K,1,35,-35,KO,,Return
+79,D,1,10,-13,Run,8,Rush
+80,D,2,2,-21,,-7,Sack
+81,D,3,9,-14,Pass,0,Incomplete
+82,K,4,9,-14,PUNT,,Fair Catch
+83,O,1,10,-47,Run,8,Rush
+84,O,2,2,45,Run,6,Rush
+85,O,1,10,39,Pass,0,Incomplete
+86,O,2,10,39,Run,-1,Rush
+87,O,3,11,40,,,Timeout
+88,O,3,11,40,Pass,29,Complete
+89,O,1,10,11,,,Timeout
+90,O,1,10,11,Pass,0,Incomplete
+91,O,2,10,11,Pass,0,Incomplete
+92,O,3,10,11,Pass,0,Incomplete
+93,K,4,10,11,FG,,Good
+94,K,1,35,-35,KO,,Return
+95,D,1,10,-28,Run,-1,Rush
+96,K,,,-35,KO,,
+97,O,1,10,-25,Pass,-2,Complete
+98,O,2,12,-23,Run,3,Rush
+99,O,3,9,-26,Pass,0,Incomplete
+100,K,4,9,-26,PUNT,,Fair Catch
+101,D,1,10,-31,Run,4,Rush
+102,D,2,6,-35,Pass,19,Complete
+103,D,1,10,46,Pass,4,Complete
+104,D,2,6,42,Run,2,Rush
+105,D,3,4,40,Pass,12,Complete
+106,D,1,10,28,Run,0,Rush
+107,D,2,10,28,Run,15,Rush
+108,D,1,10,13,Run,0,Rush
+109,D,2,10,13,Run,2,Rush
+110,D,3,8,11,,,Timeout
+111,D,3,8,11,Run,5,Rush
+112,K,4,3,06,FG,,Good
+113,K,1,35,-35,KO,,Touchback
+114,O,1,10,-25,Run,0,Rush
+115,O,2,10,-25,Pass,0,Incomplete
+116,O,3,10,-25,Pass,0,Incomplete
+117,K,4,10,-25,PUNT,,Fair Catch
+118,D,1,10,-26,Run,2,Rush
+119,D,2,8,-28,Pass,6,Complete
+120,D,3,2,-34,Pass,17,Complete
+121,D,1,10,49,Run,17,Rush
+122,D,1,10,32,Run,10,Rush
+123,D,1,10,22,Run,2,Rush
+124,D,2,8,20,Run,2,Rush
+125,D,3,6,18,Pass,18,"Complete, TD"
+126,K,1,03,03,Extra Pt.,,Good
+127,K,1,35,-35,KO,,Return
+128,O,1,10,-16,Run,4,Rush
+129,O,2,6,-20,Run,13,Rush
+130,O,1,10,-33,Run,-1,Rush
+131,O,2,11,-32,Run,-1,Rush
+132,O,3,12,-31,,-3,Sack
+133,K,4,15,-28,PUNT,,
+134,D,1,10,50,Run,6,Rush
+135,D,2,4,44,Run,-2,Rush
+136,D,3,6,46,Pass,20,Complete
+137,D,1,10,26,Run,3,Rush
+138,D,2,7,23,Run,-1,Rush
+139,D,3,8,24,Pass,17,Complete
+140,D,1,07,07,Run,3,Rush
+141,D,2,04,04,Run,-3,Rush
+142,D,3,07,07,Pass,0,Incomplete
+143,K,4,07,07,FG,,Good
+144,K,1,35,-35,KO,,Touchback
+145,O,1,10,-25,,-6,Sack
+146,O,2,16,-19,Pass,81,"Complete, TD"
+147,K,1,03,03,Extra Pt.,,Good
+148,K,1,35,-35,KO,,Touchback
+149,D,1,10,-25,Run,9,Rush
+150,D,2,1,-34,Run,1,Rush
+151,D,1,10,-35,Run,4,Rush
+152,D,2,6,-39,Pass,14,Complete
+153,D,1,10,47,Run,0,Rush
+154,D,2,10,47,Run,1,Rush
+155,D,3,9,46,Run,2,Rush
+156,K,4,7,44,PUNT,,Fair Catch
+157,O,1,10,-10,Pass,18,Complete
+158,O,1,15,-05,,,Timeout
+159,O,1,15,-05,Pass,78,Complete
+160,O,1,10,17,Run,-1,Rush
+161,O,2,11,18,Run,8,Rush
+162,O,3,3,10,Pass,0,Incomplete
+163,K,4,3,10,FG,,Good
+164,K,1,35,-35,KO,,Touchback
+165,D,1,10,-25,Run,11,Rush
+166,D,1,20,-15,Pass,31,Complete
+167,D,1,10,-46,Run,2,Rush
+168,D,2,8,-48,Run,5,Rush
+169,D,3,3,47,,,Timeout
+170,D,3,3,47,Pass,0,Incomplete
+171,K,4,3,47,PUNT,,Downed
+172,O,1,10,-01,Run,2,Rush
+173,O,2,8,-03,Run,2,Rush
+174,D,1,10,25,Pass,2,Complete
+175,D,1,10,11,Run,6,Rush
+176,D,2,4,05,Run,5,"Rush, TD"
+177,K,1,03,03,Extra Pt.,,Good
+178,O,1,10,25,Pass,0,Incomplete
+179,O,2,10,25,Pass,0,Incomplete
+180,O,3,10,25,,,Sack
+181,O,4,20,35,,,Timeout
+182,O,4,20,35,Pass,0,Incomplete

@@ -1,0 +1,254 @@
+PLAY #,ODK,DN,DIST,YDLN,PLAYTYPE,GNLS,RESULT
+1,X,No Info,No Info,No info,---,---,---
+2,K,No Info,No Info,-35,KO,No Info,Need to make things methods
+3,D,No Info,No Info,No info,---,---,---
+4,D,1,10,-36,No Info,No Info,No Info
+5,D,1,10,-36,Run,64,"Rush, TD"
+6,K,1,03,03,Extra Pt.,No Info,Good
+7,K,1,35,FUCK,KO,No Info,Return
+8,K,No Info,No Info,No info,No Info,No Info,No Info
+9,O,No Info,No Info,No info,---,---,---
+10,O,1,10,-18,No Info,No Info,No Info
+11,O,1,10,-18,No Info,-5,Sack
+12,O,2,15,-13,Run,8,Rush
+13,O,3,7,-21,No Info,-7,Sack
+14,K,4,14,-14,PUNT,No Info,Downed
+15,K,No Info,No Info,No info,No Info,No Info,No Info
+16,D,No Info,No Info,No info,---,---,---
+17,D,1,10,-48,No Info,No Info,No Info
+18,D,1,10,-48,Run,1,Rush
+19,D,2,9,-49,Pass,6,Complete
+20,D,3,3,45,Run,25,Rush
+21,D,1,10,20,Pass,7,Complete
+22,D,2,3,13,Run,4,Rush
+23,D,1,09,09,Run,9,"Rush, TD"
+24,K,1,03,03,Extra Pt.,No Info,Good
+25,K,1,35,FUCK,KO,No Info,Return
+26,K,No Info,No Info,No info,No Info,No Info,No Info
+27,O,No Info,No Info,No info,---,---,---
+28,O,1,10,-24,No Info,No Info,No Info
+29,O,1,10,-24,Run,7,Rush
+30,O,2,3,-31,Run,19,Rush
+31,O,1,10,50,Pass,3,Complete
+32,O,2,7,47,Run,No Info,Rush
+33,O,3,22,-38,Run,29,Rush
+34,O,1,10,33,Run,13,Rush
+35,O,1,10,20,No Info,No Info,Timeout
+36,O,1,10,20,No Info,No Info,Penalty
+37,O,1,15,25,Run,2,Rush
+38,O,2,13,23,Run,8,Rush
+39,O,3,5,15,Pass,15,"Complete, TD"
+40,K,1,03,03,Extra Pt.,No Info,Good
+41,K,1,35,FUCK,KO,No Info,Return
+42,K,No Info,No Info,No info,No Info,No Info,No Info
+43,D,No Info,No Info,No info,---,---,---
+44,D,1,10,-35,No Info,No Info,No Info
+45,D,1,10,-35,No Info,No Info,Timeout
+46,D,1,10,-35,Run,1,Rush
+47,D,2,9,-36,Pass,52,Complete
+48,D,1,10,12,No Info,No Info,No Info
+49,D,1,10,12,Run,1,Rush
+50,D,2,9,11,Run,3,Rush
+51,D,3,6,08,Run,2,Rush
+52,K,4,4,06,FG,No Info,Good
+53,K,1,35,FUCK,KO,No Info,Return
+54,K,No Info,No Info,No info,No Info,No Info,No Info
+55,O,No Info,No Info,No info,---,---,---
+56,O,1,10,-31,No Info,No Info,No Info
+57,O,1,10,-31,Run,1,Rush
+58,O,2,9,-32,Run,15,Rush
+59,O,1,10,-47,Run,4,Rush
+60,O,2,6,49,Run,7,Rush
+61,O,No Info,No Info,No info,---,---,---
+62,O,1,10,42,No Info,No Info,No Info
+63,O,1,10,42,Pass,0,Incomplete
+64,O,2,10,42,No Info,No Info,Sack
+65,O,3,21,-47,Run,25,Rush
+66,O,1,10,28,Run,3,Rush
+67,O,2,7,25,Run,2,Rush
+68,O,3,5,23,No Info,No Info,Sack
+69,O,4,15,33,Run,10,Rush
+70,O,No Info,No Info,No info,No Info,No Info,No Info
+71,D,No Info,No Info,No info,---,---,---
+72,D,1,10,-23,No Info,No Info,No Info
+73,D,1,10,-23,Run,7,Rush
+74,D,2,3,-30,Pass,16,Complete
+75,D,1,10,-46,Run,4,Rush
+76,D,2,6,50,Pass,6,Complete
+77,D,1,10,44,Run,-1,Rush
+78,D,2,11,45,Pass,1,Complete
+79,D,3,10,44,Pass,0,Incomplete
+80,K,4,21,-45,PUNT,No Info,Return
+81,K,No Info,No Info,No info,No Info,No Info,No Info
+82,O,No Info,No Info,No info,---,---,---
+83,O,1,10,-23,No Info,No Info,No Info
+84,O,1,10,-23,Run,13,Rush
+85,O,1,20,-13,Pass,11,Complete
+86,O,2,9,-24,Run,16,Rush
+87,O,1,10,-40,Run,0,Rush
+88,O,2,10,-40,Run,45,Rush
+89,O,1,10,15,Run,-1,Rush
+90,O,2,11,16,Run,14,Rush
+91,O,1,02,02,Run,1,Rush
+92,O,2,01,01,Run,1,"Rush, TD"
+93,K,1,03,03,Extra Pt.,No Info,Good
+94,K,1,35,FUCK,KO,No Info,Return
+95,K,No Info,No Info,No info,No Info,No Info,No Info
+96,D,No Info,No Info,No info,---,---,---
+97,D,1,10,39,No Info,No Info,No Info
+98,D,1,10,39,Run,14,Rush
+99,D,1,10,25,Pass,19,Complete
+100,D,1,06,06,Run,6,"Rush, TD"
+101,K,1,03,03,Extra Pt.,No Info,Good
+102,K,1,35,FUCK,KO,No Info,Return
+103,K,No Info,No Info,No info,No Info,No Info,No Info
+104,O,No Info,No Info,No info,---,---,---
+105,O,1,10,-36,No Info,No Info,No Info
+106,O,1,10,-36,Run,9,Rush
+107,O,2,1,-45,Pass,11,Complete
+108,O,1,10,44,Run,2,Rush
+109,O,2,8,42,Pass,13,Complete
+110,O,1,10,29,Run,6,Rush
+111,O,2,4,23,Run,0,Rush
+112,O,3,4,23,No Info,No Info,Timeout
+113,O,3,4,23,No Info,No Info,Sack
+114,O,4,14,33,No Info,No Info,Timeout
+115,O,4,14,33,Pass,No Info,Return
+116,O,No Info,No Info,No info,No Info,No Info,No Info
+117,D,No Info,No Info,No info,---,---,---
+118,D,1,10,-33,No Info,No Info,No Info
+119,D,1,10,-33,Run,-5,Rush
+120,D,2,15,-28,No Info,No Info,No Info
+121,D,No Info,No Info,No info,No Info,No Info,No Info
+122,D,No Info,No Info,No info,---,---,---
+123,K,No Info,No Info,-35,KO,No Info,Need to make things methods
+124,O,No Info,No Info,No info,---,---,---
+125,O,1,10,-10,Run,3,Rush
+126,O,2,7,-13,Run,4,Rush
+127,O,3,3,-17,Run,2,Rush
+128,K,4,1,-19,PUNT,No Info,Return
+129,K,No Info,No Info,No info,No Info,No Info,No Info
+130,D,No Info,No Info,No info,---,---,---
+131,D,1,10,47,No Info,No Info,No Info
+132,D,1,10,47,Run,-2,Rush
+133,D,2,12,49,Pass,0,Incomplete
+134,D,3,12,49,Pass,0,Incomplete
+135,K,4,12,49,PUNT,No Info,Touchback
+136,K,No Info,No Info,No info,No Info,No Info,No Info
+137,O,No Info,No Info,No info,---,---,---
+138,O,1,10,-20,No Info,No Info,No Info
+139,O,1,10,-20,Run,2,Fumble
+140,O,No Info,No Info,No info,No Info,No Info,No Info
+141,D,No Info,No Info,No info,---,---,---
+142,D,1,10,24,No Info,No Info,No Info
+143,D,1,10,24,Run,2,Rush
+144,D,2,8,22,Run,-1,Rush
+145,D,3,9,23,Run,11,Rush
+146,D,1,10,12,Pass,0,Incomplete
+147,D,2,10,12,Run,4,Rush
+148,D,3,6,08,No Info,No Info,Penalty
+149,D,1,04,04,Run,2,Rush
+150,D,2,02,02,Run,1,Rush
+151,D,3,01,01,Run,0,Rush
+152,D,4,01,01,Run,1,"Rush, TD"
+153,K,1,03,03,KO,No Info,Return
+154,K,No Info,No Info,No info,No Info,No Info,No Info
+155,O,No Info,No Info,No info,---,---,---
+156,O,1,10,-30,No Info,No Info,No Info
+157,O,1,10,-30,Run,-2,Rush
+158,O,2,12,-28,Run,3,Rush
+159,O,3,9,-31,Pass,13,Complete
+160,O,1,10,-44,No Info,-4,Sack
+161,O,2,14,-40,No Info,-3,Sack
+162,O,3,17,-37,No Info,-6,Sack
+163,K,4,23,-31,PUNT,No Info,Downed
+164,K,No Info,No Info,No info,No Info,No Info,No Info
+165,D,No Info,No Info,No info,---,---,---
+166,D,1,10,-39,No Info,No Info,No Info
+167,D,1,10,-39,Run,0,Rush
+168,D,2,10,-39,Run,4,Rush
+169,D,3,6,-43,Run,3,Rush
+170,K,4,3,-46,PUNT,No Info,Return
+171,K,No Info,No Info,No info,No Info,No Info,No Info
+172,O,No Info,No Info,No info,---,---,---
+173,O,1,10,-12,No Info,No Info,No Info
+174,O,1,10,-12,Pass,0,Incomplete
+175,O,2,10,-12,Run,5,Rush
+176,O,3,5,-17,Pass,0,Incomplete
+177,O,4,5,-17,No Info,No Info,No Info
+178,K,4,5,-17,PUNT,No Info,Downed
+179,K,No Info,No Info,No info,No Info,No Info,No Info
+180,D,No Info,No Info,No info,---,---,---
+181,D,1,10,-40,No Info,No Info,No Info
+182,D,1,10,-40,Run,2,Rush
+183,D,No Info,No Info,No info,---,---,---
+184,D,2,8,-42,No Info,No Info,No Info
+185,D,2,8,-42,Run,3,Rush
+186,D,3,5,-45,Run,2,Rush
+187,K,4,3,-47,PUNT,No Info,No Info
+188,K,No Info,No Info,No info,No Info,No Info,No Info
+189,O,No Info,No Info,No info,---,---,---
+190,O,1,10,-20,No Info,No Info,No Info
+191,O,1,10,-20,Run,2,Rush
+192,O,2,8,-22,Pass,0,Incomplete
+193,O,3,8,-22,Run,10,Rush
+194,O,1,10,-32,Run,12,Rush
+195,O,1,10,-44,Run,-1,Rush
+196,O,2,11,-43,Pass,6,Complete
+197,O,3,5,-49,Run,1,Rush
+198,O,4,4,50,Pass,0,Incomplete
+199,O,No Info,No Info,No info,No Info,No Info,No Info
+200,D,No Info,No Info,No info,---,---,---
+201,D,1,10,50,No Info,No Info,No Info
+202,D,1,10,50,Pass,0,Incomplete
+203,D,2,10,50,Run,1,Rush
+204,D,3,9,49,Run,6,Rush
+205,K,4,3,43,PUNT,No Info,Downed
+206,K,No Info,No Info,No info,No Info,No Info,No Info
+207,O,No Info,No Info,No info,---,---,---
+208,O,1,10,-21,No Info,No Info,No Info
+209,O,1,10,-21,Pass,5,Complete
+210,O,2,5,-26,Run,-2,Rush
+211,O,3,7,-24,Pass,0,Incomplete
+212,K,4,7,-24,PUNT,No Info,Fair Catch
+213,K,No Info,No Info,No info,No Info,No Info,No Info
+214,D,No Info,No Info,No info,---,---,---
+215,D,1,10,-37,No Info,No Info,No Info
+216,D,1,10,-37,Run,0,Rush
+217,D,2,10,-37,Pass,8,Complete
+218,D,3,2,-45,Run,3,Rush
+219,D,1,10,-48,Run,2,Rush
+220,D,2,8,50,Run,0,Rush
+221,D,3,8,50,No Info,No Info,Timeout
+222,D,3,8,50,Run,0,Rush
+223,D,4,8,50,No Info,No Info,Timeout
+224,K,4,8,50,PUNT,No Info,Return
+225,K,No Info,No Info,No info,No Info,No Info,No Info
+226,O,No Info,No Info,No info,---,---,---
+227,O,1,10,-23,No Info,No Info,No Info
+228,O,1,10,-23,Pass,No Info,Block
+229,O,No Info,No Info,No info,No Info,No Info,No Info
+230,D,No Info,No Info,No info,---,---,---
+231,D,1,10,-46,Run,1,Rush
+232,D,2,9,-47,Run,2,Rush
+233,D,3,7,-49,Run,2,Rush
+234,D,4,5,49,No Info,No Info,Timeout
+235,K,4,5,49,PUNT,No Info,Downed
+236,K,No Info,No Info,No info,No Info,No Info,No Info
+237,O,No Info,No Info,No info,---,---,---
+238,O,1,10,-14,No Info,No Info,No Info
+239,O,1,10,-14,No Info,No Info,Penalty
+240,O,1,15,-09,Run,-3,Rush
+241,O,2,18,-06,Run,0,Rush
+242,O,3,18,-06,No Info,No Info,Penalty
+243,O,1,10,-21,Pass,0,Incomplete
+244,O,2,10,-21,Run,4,Rush
+245,O,3,6,-25,Run,3,Rush
+246,K,4,3,-28,PUNT,No Info,Downed
+247,K,No Info,No Info,No info,No Info,No Info,No Info
+248,D,No Info,No Info,No info,---,---,---
+249,D,1,10,-04,No Info,No Info,No Info
+250,D,1,10,-04,Run,13,Rush
+251,K,1,10,-17,Extra Pt.,No Info,Good
+252,K,1,35,FUCK,No Info,No Info,No Info
+253,K,No Info,No Info,No info,No Info,No Info,No Info

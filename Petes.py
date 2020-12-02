@@ -6,7 +6,6 @@ Created on Tue Aug  4 22:10:00 2020
 """
 
 import csv
-import os
 import re
 from itertools import zip_longest
 
@@ -129,7 +128,7 @@ def getYDLN(cell, poss, abvA):
             print(poss)
             print(ydln)
     else:
-        runningYDLN = "No info"
+        runningYDLN = "No Info"
     return runningYDLN
                         
 def getPLAYTYPE(cell):
